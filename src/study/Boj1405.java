@@ -41,7 +41,7 @@ public class Boj1405 {
                 if(visited[nx][ny] == false) {
                     visited[nx][ny] = true;
                     dfs(nx, ny, index + 1, n, total * percentage[i]);
-                    visited[nx][ny] = false;
+
                 }
             }
         }
